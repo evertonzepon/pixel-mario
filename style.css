@@ -1,0 +1,89 @@
+        * {
+            padding: 0;
+            margin: 0;
+            border: 0;
+            background-color: black;
+            box-sizing: border-box;
+        }
+
+        div {
+            align-items: center;
+            justify-content: center;
+        }
+
+        div .black,
+        .red,
+        .brown,
+        .green,
+        .white,
+        .blue,
+        .beige {
+            border: 1px solid black;
+        }
+
+
+        .cyan {
+            width: 30px;
+            height: 30px;
+            background-color: cyan;
+        }
+
+        .black {
+            width: 30px;
+            height: 30px;
+            background-color: black;
+        }
+
+        .white {
+            width: 30px;
+            height: 30px;
+            background-color: white;
+        }
+
+        .red {
+            width: 30px;
+            height: 30px;
+            background-color: red;
+        }
+
+        .brown {
+            width: 30px;
+            height: 30px;
+            background-color: brown;
+        }
+
+        .beige {
+            width: 30px;
+            height: 30px;
+            background-color: beige;
+        }
+
+        .blue {
+            width: 30px;
+            height: 30px;
+            background-color: blue;
+        }
+
+        .green {
+            width: 30px;
+            height: 30px;
+            background-color: green
+        }
+
+        .row {
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        #container {
+            min-width: 540px;
+            min-height: 900px;
+        }
+
+        @media only screen and (min-width: 540px) {
+            #container {
+                min-width: 540px;
+                min-height: 100vh;
+            }
+
+        }
