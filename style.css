@@ -83,7 +83,7 @@
         @media only screen and (min-width: 540px) {
             #container {
                 min-width: 540px;
-                min-height: 100vh;
+                min-height: 900px;
             }
 
         }
