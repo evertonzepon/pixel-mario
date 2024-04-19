@@ -1,89 +1,64 @@
-        * {
-            padding: 0;
-            margin: 0;
-            border: 0;
-            background-color: black;
-            box-sizing: border-box;
-        }
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: black;
+  box-sizing: border-box;
+}
 
-        div {
-            align-items: center;
-            justify-content: center;
-        }
+div {
+  align-items: center;
+  justify-content: center;
+}
 
-        div .black,
-        .red,
-        .brown,
-        .green,
-        .white,
-        .blue,
-        .beige {
-            border: 1px solid black;
-        }
+div
+.black,
+.red,
+.brown,
+.green,
+.white,
+.blue,
+.beige {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+}
 
+.cyan {
+  background-color: cyan;
+  width: 30px;
+  height: 30px;
+}
 
-        .cyan {
-            width: 30px;
-            height: 30px;
-            background-color: cyan;
-        }
+.black {
+  background-color: black;
+}
 
-        .black {
-            width: 30px;
-            height: 30px;
-            background-color: black;
-        }
+.white {
+  background-color: white;
+}
 
-        .white {
-            width: 30px;
-            height: 30px;
-            background-color: white;
-        }
+.red {
+  background-color: red;
+}
 
-        .red {
-            width: 30px;
-            height: 30px;
-            background-color: red;
-        }
+.brown {
+  background-color: brown;
+}
 
-        .brown {
-            width: 30px;
-            height: 30px;
-            background-color: brown;
-        }
+.beige {
+  background-color: beige;
+}
 
-        .beige {
-            width: 30px;
-            height: 30px;
-            background-color: beige;
-        }
+.blue {
+  background-color: blue;
+}
 
-        .blue {
-            width: 30px;
-            height: 30px;
-            background-color: blue;
-        }
+.green {
+  background-color: green;
+}
 
-        .green {
-            width: 30px;
-            height: 30px;
-            background-color: green
-        }
-
-        .row {
-            display: flex;
-            flex-flow: row wrap;
-        }
-
-        #container {
-            min-width: 540px;
-            min-height: 900px;
-        }
-
-        @media only screen and (min-width: 540px) {
-            #container {
-                min-width: 540px;
-                min-height: 900px;
-            }
-
-        }
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
