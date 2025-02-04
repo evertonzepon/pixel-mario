@@ -6,59 +6,22 @@
   box-sizing: border-box;
 }
 
-div {
+#container {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
-
-div
-.black,
-.red,
-.brown,
-.green,
-.white,
-.blue,
-.beige {
-  border: 1px solid black;
-  width: 30px;
-  height: 30px;
-}
-
-.cyan {
-  background-color: cyan;
-  width: 30px;
-  height: 30px;
-}
-
-.black {
-  background-color: black;
-}
-
-.white {
-  background-color: white;
-}
-
-.red {
-  background-color: red;
-}
-
-.brown {
-  background-color: brown;
-}
-
-.beige {
-  background-color: beige;
-}
-
-.blue {
-  background-color: blue;
-}
-
-.green {
-  background-color: green;
 }
 
 .row {
   display: flex;
-  flex-flow: row wrap;
 }
+
+.row div {
+  width: 20px;
+  height: 20px;
+}
+
+.cyan { background-color: cyan; }
+.black { background-color: black; }
+.red { background-color: red; }
+.white { background-color: white; }
